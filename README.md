@@ -8,5 +8,5 @@ In signal processing, a window is used when the analysis focuses on a signal of 
 
 ## Hamming Function:
 
-## Equation
-![equals1](https://latex.codecogs.com/svg.image?H(n)&space;=&space;0.54&space;&plus;0.46&space;\cdot&space;cos[(\frac{2\pi}{N})\cdot&space;n])
+### Equation
+![equals1](https://latex.codecogs.com/svg.image?\bg_white&space;H(n)&space;=&space;0.54&space;&plus;0.46&space;\cdot&space;cos[(\frac{2\pi}{N})\cdot&space;n])
