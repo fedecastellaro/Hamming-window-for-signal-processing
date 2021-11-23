@@ -51,8 +51,8 @@ An graph the response:
 
 To finish, we can compare the response done by the microcontroller to what you can get with a python algorithm:
 
+![descarga (1)](https://user-images.githubusercontent.com/41343686/143062527-1147f811-42ff-46bc-91c9-40008dfaf0b6.png)
 
-![Hamming comparation](https://user-images.githubusercontent.com/41343686/143061411-2aed1301-b7dd-4261-9449-3e63816d68a3.png)
 
 
 
