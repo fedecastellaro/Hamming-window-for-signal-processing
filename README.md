@@ -46,12 +46,13 @@ hamming_window.applyWindow(heavyside_function);
 ```
 
 An graph the response:
+
 ![Hamming signal](https://user-images.githubusercontent.com/41343686/143055453-394a9bf8-bb8f-4187-b8e5-73842fb995d7.png)
 
 To finish, we can compare the response done by the microcontroller to what you can get with a python algorithm:
 
-![Hamming comparation](https://user-images.githubusercontent.com/41343686/143060397-a2a07d02-0eb4-4f49-984b-14205d4ca648.png)
 
-  
+![Hamming comparation](https://user-images.githubusercontent.com/41343686/143061411-2aed1301-b7dd-4261-9449-3e63816d68a3.png)
+
 
 
