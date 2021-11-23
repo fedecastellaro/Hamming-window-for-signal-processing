@@ -1,6 +1,22 @@
 # Hamming window for signal processing
 Hamming window algorithm for the Arduino environment or any microcontroller. Specially usefull in signal processing.
 
+## Summary
+
+```cpp
+/*Invoke an instance of the Hamming class. The only requirement is to declare the size of the window in which the signal is*/
+#define WINDOW_SIZE 1000
+
+Hamming hamming_window(WINDOW_SIZE);
+
+/*Just to test it I'll be using a heavyside function. Here you can use whatever function you want*/
+float heavyside_function[WINDOW_SIZE];
+
+/*Then simply apply the window to the signal. Beware that all changes will be applied to the same array that you put as argument.*/
+hamming_window.applyWindow(heavyside_function);
+
+```
+
 ## Window Function:
 Windows are mathematical functions frequently used in analysis and signal processing to avoid discontinuities at the beginning and end of analyzed blocks.
 
@@ -44,6 +60,8 @@ Then we apply the Hamming window to the signal:
 ```cpp
 hamming_window.applyWindow(heavyside_function);
 ```
+
+**Beware that all changes will be applied to the same array that you put as argument.** Feel free to change this at will.
 
 An graph the response:
 
