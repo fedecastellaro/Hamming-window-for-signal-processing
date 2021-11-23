@@ -28,7 +28,7 @@ Hamming hamming_window(WINDOW_SIZE);
 
 To test it, we'll be applying the Hamming window to the positive part of a heavyside function:
 
-![1200px-Función_Cu_H svg](https://user-images.githubusercontent.com/41343686/143047376-465a7941-c5d2-4acb-97d5-cca2879a8d62.png)
+![heavyside](https://user-images.githubusercontent.com/41343686/143053367-646a841e-d28a-4709-ae46-d2e3c9c4f358.png)
 
 In the code is represented like:
 
