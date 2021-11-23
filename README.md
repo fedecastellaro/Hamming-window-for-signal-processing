@@ -4,6 +4,9 @@ Hamming window algorithm for the Arduino environment or any microcontroller. Spe
 ## Summary
 
 ```cpp
+// Include the hamming header
+#include "hamming.h"
+
 /*Invoke an instance of the Hamming class. The only requirement is to declare the size of the window in which the signal is*/
 #define WINDOW_SIZE 1000
 
@@ -31,8 +34,12 @@ Computers can't do computations with an infinite number of data points, so all s
 ![equals1](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;H(n)&space;=&space;0.54&space;&plus;0.46&space;\cdot&space;cos[(\frac{2\pi}{N})\cdot&space;n])
 
 ## How to use:
+Copy the following files in your proyect directory:
 
-Invoke a instance of the Hamming class. The only argument that is needed is the amount of samples in the windows where the signal in question is.
+- hamming.h
+- hamming.cpp
+
+In your code invoke a instance of the Hamming class. The only argument that is needed is the amount of samples in the windows where the signal in question is.
 
 If your window has 1000 samples, the code we'll be:
 
