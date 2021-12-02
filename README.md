@@ -70,7 +70,7 @@ hamming_window.applyWindow(heavyside_function);
 
 **Beware that all changes will be applied to the same array that you put as argument.** Feel free to change this at will.
 
-An graph the response:
+And then graph the response:
 
 ![Hamming signal](https://user-images.githubusercontent.com/41343686/143055453-394a9bf8-bb8f-4187-b8e5-73842fb995d7.png)
 
